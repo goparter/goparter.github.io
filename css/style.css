@@ -540,7 +540,7 @@ b.fa.fa-caret-right {
     background: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/1.jpg) no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/1.jpg) no-repeat;
     /*background-size: cover;*/
-    background-size:contain;
+    background-size:100% 100%;
     background-position: center;
     /*background-repeat: no-repeat;*/
 }
@@ -550,7 +550,7 @@ b.fa.fa-caret-right {
     background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/2.jpg) no-repeat;
     background: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/2.jpg) no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/2.jpg) no-repeat;
-    background-size:contain;
+    background-size:100% 100%;
     background-position: center;
 }
 
@@ -559,7 +559,7 @@ b.fa.fa-caret-right {
     background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/3.jpg) no-repeat;
     background: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/3.jpg) no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/3.jpg) no-repeat;
-    background-size:contain;
+    background-size:100% 100%;
     background-position: center;
 }
 
@@ -568,7 +568,7 @@ b.fa.fa-caret-right {
     background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/4.jpg) no-repeat;
     background: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/4.jpg) no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/4.jpg) no-repeat;
-    background-size:contain;
+    background-size:100% 100%;
     background-position: center;
 }
 
@@ -673,9 +673,10 @@ b.fa.fa-caret-right {
 
 .carousel-caption {
     position: inherit;
-    min-height: 1080px !important;
+    /*min-height: 1080px !important;*/
     padding-top: 15em;
     text-align: center;
+    height: calc(100vh - 100px);
 }
 
 .carousel-control {
@@ -2595,17 +2596,17 @@ ul.social-icons3.two li a {
         padding: 5em 0 16em 0;
     }
 
-    .carousel-caption {
-        min-height: 1200px !important;
-        padding-top: 10em;
-    }
+    /*.carousel-caption {*/
+    /*    min-height: 1200px !important;*/
+    /*    padding-top: 10em;*/
+    /*}*/
 }
 
 @media (max-width: 1366px) {
-    .carousel-caption {
-        min-height: 1080px !important;
-        padding-top: 10em;
-    }
+    /*.carousel-caption {*/
+    /*    min-height: 1080px !important;*/
+    /*    padding-top: 10em;*/
+    /*}*/
 }
 
 @media (max-width: 1280px) {
@@ -2722,10 +2723,10 @@ ul.social-icons3.two li a {
         padding-top: 3.5em;
     }
 
-    .carousel-caption {
-        min-height: 800px !important;
-        padding-top: 9em;
-    }
+    /*.carousel-caption {*/
+    /*    min-height: 800px !important;*/
+    /*    padding-top: 9em;*/
+    /*}*/
 
     .stats_left i {
         font-size: 2em;
@@ -2869,10 +2870,10 @@ ul.social-icons3.two li a {
 }
 
 @media (max-width: 991px) {
-    .carousel-caption {
-        min-height: 490px !important;
-        padding-top: 9em;
-    }
+    /*.carousel-caption {*/
+    /*    min-height: 490px !important;*/
+    /*    padding-top: 9em;*/
+    /*}*/
 
     .grid_info {
         width: 48%;
@@ -2885,10 +2886,10 @@ ul.social-icons3.two li a {
         padding: 0.5em;
     }
 
-    .carousel-caption {
-        min-height: 490px !important;
-        padding-top: 7em;
-    }
+    /*.carousel-caption {*/
+    /*    min-height: 490px !important;*/
+    /*    padding-top: 7em;*/
+    /*}*/
 
     .navbar-default .navbar-nav > li > a {
         font-size: 14px;
@@ -3138,10 +3139,10 @@ ul.social-icons3.two li a {
         margin-top: 0.1em;
     }
 
-    .carousel-caption {
-        min-height: 393px !important;
-        padding-top: 4em;
-    }
+    /*.carousel-caption {*/
+    /*    min-height: 393px !important;*/
+    /*    padding-top: 4em;*/
+    /*}*/
 
     .carousel-control {
         line-height: 22em;
@@ -3203,10 +3204,10 @@ ul.social-icons3.two li a {
         padding: 0.3em;
     }
 
-    .carousel-caption {
-        min-height: 393px !important;
-        padding-top: 5em;
-    }
+    /*.carousel-caption {*/
+    /*    min-height: 393px !important;*/
+    /*    padding-top: 5em;*/
+    /*}*/
 
     .agile-about {
         padding: 3em 0;
@@ -3670,10 +3671,10 @@ ul.social-icons3.two li a {
 }
 
 @media (max-width: 480px) {
-    .carousel-caption {
-        min-height: 358px !important;
-        padding-top: 4em;
-    }
+    /*.carousel-caption {*/
+    /*    min-height: 358px !important;*/
+    /*    padding-top: 4em;*/
+    /*}*/
 
     .banner_form_agileits input[type="search"], .banner_form_agileits input[type="submit"] {
         width: 33%;
@@ -3979,10 +3980,10 @@ ul.social-icons3.two li a {
         padding: 0.7em 0.7em;
     }
 
-    .carousel-caption {
-        min-height: 300px !important;
-        padding-top: 3em;
-    }
+    /*.carousel-caption {*/
+    /*    min-height: 300px !important;*/
+    /*    padding-top: 3em;*/
+    /*}*/
 
     .carousel-control {
         line-height: 18.5em;
@@ -4030,10 +4031,10 @@ ul.social-icons3.two li a {
         margin: 0.3em 0 0em 0;
     }
 
-    .carousel-caption {
-        min-height: 283px !important;
-        padding-top: 1em;
-    }
+    /*.carousel-caption {*/
+    /*    min-height: 283px !important;*/
+    /*    padding-top: 1em;*/
+    /*}*/
 
     .navbar-default a.navbar-brand h1 {
         font-size: 30px;
